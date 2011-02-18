@@ -8,5 +8,5 @@ puts "Average word size: ".ljust(25) + avg.to_s
 
 vowels = ['a','e','i','o','u']
 vcount = words.select { |word| vowels.include?(word[0,1]) }.size
-puts "Words that start with a vowel: " + vcount.to_s
+puts "Vowel starting words: ".ljust(25) + vcount.to_s
 
