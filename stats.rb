@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+puts "Stats from the stopwords file"
+puts "-----------------------------"
+
 words = File.read('stopwords.txt').split(',')
 puts "Number of words: " + words.size.to_s
 
